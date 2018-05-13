@@ -1,0 +1,14 @@
+#take in a list and print out each item that is less than 5
+
+
+
+number = raw_input("Give me a list of numbers split by commas: ")
+number2 = number.split(",") #split is to remove the commas
+
+
+
+
+for item in number2:
+	if (int(item.strip())) < 5:
+		print item.strip()
+ #strip function removes spaces
